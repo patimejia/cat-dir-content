@@ -1,12 +1,9 @@
 # cat-dir-content
-Bash script for printing contents of files in a directory. Uses `cat` command for quick and efficient viewing of multiple files. Accepts path to directory as command line argument. Streamlines workflows and improves productivity.
 
-
-Sure! Here's a possible README file for `cat-dir-content.sh`:
-
-# cat-dir-content.sh
-
-`cat-dir-content.sh` is a Bash script for printing the contents of files in a directory. It uses the `cat` command for quick and efficient viewing of multiple files, and accepts the path to the directory as a command line argument. By streamlining workflows and improving productivity, this script is a useful tool for DAG Engineers, and Prompt Engineers.
+- `cat-dir-content.sh` is a Bash script for printing the contents of files in a directory.
+- It uses the `cat` command for quick and efficient viewing of multiple files.
+- The script accepts the path to the directory as a command line argument.
+- By streamlining workflows and improving productivity, `cat-dir-content.sh` is a useful tool for DAG Engineers and Prompt Engineers.
 
 ## Installation
 
