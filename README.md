@@ -15,16 +15,27 @@
    chmod +x cat-dir-content.sh
    ```
 
-## Usage
+Usage:
 
 1. Open your terminal.
-2. Navigate to the directory where `cat-dir-content.sh` is located.
-3. Run the script by specifying the path to the directory as a command line argument. For example, to print the contents of all files in `/path/to/directory`, run:
-   ```
-   ./cat-dir-content.sh /path/to/directory
-   ```
+
+2. Navigate to the directory where you saved the `cat-dir-content.sh` script.
+
+3. Run the script by specifying the path to the directory as a command line argument. For example, to print the contents of all files in the directory `/path/to/directory`, run:
+
+```
+./cat-dir-content.sh /path/to/directory
+```
+
+Note: The path you specify must be relative to the location of the script file. If you saved the script in a different directory than the one you want to print the contents of, you must provide the full path to the directory you want to read from.
 
 This will print the contents of all files in the specified directory using the `cat` command.
+
+## Security Considerations
+
+`cat-dir-content.sh` can be used to view the contents of any file in a directory, including sensitive files. Be sure to only use this script on directories and files that you trust, and do not execute it with superuser privileges.
+
+Additionally, be cautious when downloading scripts from the internet, and verify the source and integrity of the script before executing it on your system.
 
 ## Contributing
 
@@ -34,4 +45,4 @@ You can contribute to the project by submitting a pull request on the GitHub rep
 
 ## License
 
-`cat-dir-content.sh` is licensed under the MIT License. See `LICENSE` for more information.
+`cat-dir-content.sh` is licensed under the MIT License. See [`LICENSE`]( for more information.
