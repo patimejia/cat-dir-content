@@ -15,7 +15,7 @@
    chmod +x cat-dir-content.sh
    ```
 
-Usage:
+## Usage:
 
 1. Open your terminal.
 
