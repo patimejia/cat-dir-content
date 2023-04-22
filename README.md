@@ -15,6 +15,30 @@
    chmod +x cat-dir-content.sh
    ```
 
+## Installation
+
+1. Open your terminal.
+2. Ensure that you have `wget` installed on your system by running the command:
+   ```
+   which wget
+   ```
+   If the command returns a path, `wget` is already installed. If it returns nothing, you can install `wget` using a package manager such as `apt` or `brew`. For examples, 
+   ```
+   brew install wget
+   ``
+3. Download the script from the project's GitHub repository by running the following command:
+   ```
+   wget https://patimejia.github.io/cat-dir-content/cat-dir-content.sh
+   ```
+4. Set the executable permission on the script file using the following command:
+   ```
+   chmod +x cat-dir-content.sh
+   ```
+
+This will allow you to execute the script as a program.
+
+
+
 ## Usage:
 
 1. Open your terminal.
@@ -45,4 +69,4 @@ You can contribute to the project by submitting a pull request on the GitHub rep
 
 ## License
 
-`cat-dir-content.sh` is licensed under the MIT License. See [`LICENSE`]( for more information.
+`cat-dir-content.sh` is licensed under the MIT License. See [`LICENSE`](https://github.com/patimejia/cat-dir-content/blob/main/LICENSE) for more information.
