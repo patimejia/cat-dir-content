@@ -40,6 +40,10 @@ https://patimejia.github.io/cat-dir-content/
 
 This will allow you to execute the script as a program.
 
+   - `chmod` is used to change file or directory permissions in Unix-based systems.
+   - It can change read, write, and execute permissions for a file or directory.
+   - `chmod +x` sets the executable permission for a file or directory, allowing it to be run as a program.
+   - To see permissions of a file or directory, use `ls -la`. For example, `-rwxr-xr-x` means the file has read, write, and execute permissions for the owner and read and execute permissions for everyone else.
 
 
 ## Usage:
