@@ -2,7 +2,7 @@
 
 - A Bash script for printing the contents of files in a directory using the `cat` command for efficient viewing of multiple files.
 - Accepts the path to the directory as a command line argument and is useful for DAG and Prompt Engineers.
-- Download the `.sh` scrpt [here](https://patimejia.github.io/cat-dir-content/cat-dir-content.sh)
+- Download the `.sh` script [here](https://patimejia.github.io/cat-dir-content/cat-dir-content.sh)
 
 ## Installation
 
