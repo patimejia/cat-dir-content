@@ -17,7 +17,7 @@
    ``
 3. Download the script from the project's GitHub repository by running the following command:
    ```
-   wget https://patimejia.github.io/cat-dir-content/cat-dir-content.sh
+   wget https://patmejia.github.io/cat-dir-content/cat-dir-content.sh
    ```
 4. Set the executable permission on the script file using the following command:
    ```
