@@ -14,7 +14,7 @@
    If the command returns a path, `wget` is already installed. If it returns nothing, you can install `wget` using a package manager such as `apt` or `brew`. For examples, 
    ```
    brew install wget
-   ``
+   ```
 3. Download the script from the project's GitHub repository by running the following command:
    ```
    wget https://patmejia.github.io/cat-dir-content/cat-dir-content.sh
